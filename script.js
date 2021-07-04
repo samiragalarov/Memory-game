@@ -1,5 +1,5 @@
-<script>
-    const cards = document.querySelectorAll('.memory-card');
+
+const cards = document.querySelectorAll('.memory-card');
 
 let hasFlippedCard = false;
 let lockBoard = false;
@@ -63,4 +63,4 @@ function resetBoard() {
 
 cards.forEach(card => card.addEventListener('click', flipCard));
 
-</script>
+
